@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Courses - Quran Ruhani Online Quran Academy</title>
+  <meta name="description" content="Explore Quran Ruhani's online courses including Quran reading, Tajweed, memorization, and Islamic studies for all ages.">
+  <meta name="keywords" content="Quran Courses, Tajweed Online, Hifz Classes, Learn Quran, Islamic Studies, Online Quran Academy">
+  <meta name="author" content="Quran Ruhani Academy">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Courses - Quran Ruhani Academy">
+  <meta property="og:description" content="Choose from online Quran reading, Tajweed, Hifz, and Islamic Studies courses with expert tutors.">
+  <meta property="og:image" content="https://quranruhani.github.io/quranruhani/images/pre.jpg">
+  <meta property="og:url" content="https://quranruhani.github.io/quranruhani/courses.html">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Courses - Quran Ruhani Academy">
+  <meta name="twitter:description" content="Online Quran courses for all ages. Learn Quran, Tajweed, Hifz & Islamic Studies.">
+  <meta name="twitter:image" content="https://quranruhani.github.io/quranruhani/images/pre.jpg">
+
+  <!-- Canonical & Robots -->
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://quranruhani.github.io/quranruhani/courses.html" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="sticky">
+        <div class="container">
+            <!-- Logo -->
+            <div class="header-logo">
+                <img src="LOGO 1.png" alt="Quran Ruhani Logo">
+            </div>
+    
+            <!-- Navigation Links -->
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="pricing.html">PRICING</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+    
+            <!-- Mobile Menu Toggle -->
+            <div class="menu-toggle" id="mobile-menu-toggle">
+                <i class="fas fa-bars"></i> <!-- Hamburger Icon -->
+            </div>
+        </div>
+    </header>
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <!-- Courses Header with Background Image -->
+        <div class="courses-header">
+            <div class="container">
+                <h2>Our Courses</h2>
+                <p class="center">Explore our comprehensive Quranic courses designed for all levels. Start your journey today!</p>
+            </div>
+        </div>
+
+        <!-- Course Grid -->
+        <div class="container">
+            <div class="course-grid">
+                <!-- Quran Reading Course -->
+                <div class="course-card">
+                    <i class="fas fa-book-open"></i>
+                    <h3>Quran Reading</h3>
+                    <p>Learn to read the Quran with proper pronunciation and fluency. Perfect for beginners.</p>
+                    <button class="btn enrollBtn">Enroll Now</button>
+                </div>
+
+                <!-- Tajweed Course -->
+                <div class="course-card">
+                    <i class="fas fa-microphone"></i>
+                    <h3>Tajweed Course</h3>
+                    <p>Master the rules of Tajweed for beautiful and accurate Quran recitation.</p>
+                    <button class="btn enrollBtn">Enroll Now</button>
+                </div>
+
+                <!-- Quran Memorization -->
+                <div class="course-card">
+                    <i class="fas fa-quran"></i>
+                    <h3>Quran Memorization</h3>
+                    <p>Start your journey to memorize the Quran with expert guidance and support.</p>
+                    <button class="btn enrollBtn">Enroll Now</button>
+                </div>
+
+                <!-- Islamic Studies -->
+                <div class="course-card">
+                    <i class="fas fa-mosque"></i>
+                    <h3>Islamic Studies</h3>
+                    <p>Learn the fundamentals of Islam, including Fiqh, Hadith, and Seerah.</p>
+                    <button class="btn enrollBtn">Enroll Now</button>
+                </div>
+
+                <!-- Arabic Language -->
+                <div class="course-card">
+                    <i class="fas fa-language"></i>
+                    <h3>Arabic Language</h3>
+                    <p>Learn Arabic to understand the Quran and Islamic texts in their original language.</p>
+                    <button class="btn enrollBtn">Enroll Now</button>
+                </div>
+
+                <!-- Kids Quran Course -->
+                <div class="course-card">
+                    <i class="fas fa-child"></i>
+                    <h3>Kids Quran Course</h3>
+                    <p>Specialized Quranic education for children with interactive learning methods.</p>
+                    <button class="btn enrollBtn">Enroll Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enroll Now Modal Form -->
+    <!-- Enroll Now Modal Form -->
+<div id="enrollModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Enroll Now</h2>
+
+        <form action="https://formsubmit.co/quranruhani@gmail.com" method="POST">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="form-group">
+                <label for="course">Select Course</label>
+                <select id="course" name="course" required>
+                    <option value="">Choose a course</option>
+                    <option value="quran-reading">Quran Reading</option>
+                    <option value="tajweed">Tajweed Course</option>
+                    <option value="memorization">Quran Memorization</option>
+                    <option value="islamic-studies">Islamic Studies</option>
+                </select>
+            </div>
+
+            <!-- Hidden Inputs for Extra Settings -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://quranruhani.com/thank-you.html">
+            <input type="hidden" name="_template" value="table">
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+
+    </div>
+</div>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Quran Ruhani. All rights reserved. | Designed and Developed by <strong>M. Hanzalah</strong></p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/1UePgnwSxQ/?mibextid=qi2Omg" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/quran-ruhani-44489233b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/quran.ruhani?igsh=MW00eXVlMW94ZzQ2bQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@Quran.Ruhani" target="_blank"><i class="fab fa-youtube"></i></a> <!-- Added YouTube link -->
+            </div>
+        </div>
+    </footer>
+<!-- WhatsApp Button -->
+<a href="https://wa.me/447521246917" class="whatsapp-button" target="_blank">
+    <i class="fab fa-whatsapp"></i> <!-- WhatsApp Icon -->
+</a>
+    <!-- JavaScript -->
+    <script>
+        // Get the modal
+        const modal = document.getElementById("enrollModal");
+
+        // Get all Enroll Now buttons
+        const enrollBtns = document.querySelectorAll(".enrollBtn");
+
+        // Get the <span> element that closes the modal
+        const span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks any Enroll Now button, open the modal
+        enrollBtns.forEach(btn => {
+            btn.onclick = function() {
+                modal.style.display = "block";
+            }
+        });
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        // Handle form submission
+        document.getElementById("enrollForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent form from submitting
+            alert("Thank you for enrolling! We will contact you shortly.");
+            modal.style.display = "none"; // Close the modal
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
